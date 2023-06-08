@@ -1,14 +1,21 @@
-import './App.css'
+import Header from "./Header";
+import Navbar from "./NavBar";
 
 function App() {
+  const links = [
+    { name: "Home", url: "/" },
+    { name: "About", url: "/about" },
+    { name: "Services", url: "/services" },
+    { name: "Contact", url: "/contact" },
+  ];
 
+  // Use the links array as a prop when rendering the Navbar
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      <Header title={"VoiceTrans"} />
+      {/* <Navbar />; */}
     </>
-  )
+  );
 }
 
-export default App
+export default App;
