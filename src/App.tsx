@@ -1,20 +1,45 @@
-import Header from "./Header";
-import Navbar from "./NavBar";
+import styles from "./styles";
+import {
+  Billing,
+  Business,
+  CardDeal,
+  Clients,
+  CTA,
+  Footer,
+  Navbar,
+  Stats,
+  Testimonial,
+  Hero,
+} from "./components";
 
 function App() {
-  const links = [
-    { name: "Home", url: "/" },
-    { name: "About", url: "/about" },
-    { name: "Services", url: "/services" },
-    { name: "Contact", url: "/contact" },
-  ];
-
-  // Use the links array as a prop when rendering the Navbar
   return (
-    <>
-      <Header title={"VoiceTrans"} />
-      {/* <Navbar />; */}
-    </>
+    <div className="bg-primary w-full overflow-hidden">
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Navbar />
+        </div>
+      </div>
+
+      <div className={`bg-primary ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Hero />
+        </div>
+      </div>
+
+      <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Stats />
+          <Business />
+          <Billing />
+          <CardDeal />
+          <Testimonial />
+          <Clients />
+          <CTA />
+          <Footer />
+        </div>
+      </div>
+    </div>
   );
 }
 
