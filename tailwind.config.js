@@ -5,8 +5,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#87CEEB",
-        secondary: "#002fa7",
+        primary: "#002fa7",
+        secondary: "#87CEEB",
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 124, 0.1)",
       },
@@ -26,3 +26,6 @@ export default {
   plugins: [],
 }
 
+
+// #87CEEB
+// #002fa7
