@@ -9,14 +9,15 @@ const Navbar: React.FC = () => {
   return (
     // the whole navbar
 
-    <nav className="w-full flex py-6 justify-between items-center navbar">
+    <div className="w-full py-6 flex justify-center items-center">
       {/* logo */}
-      <a href={"/"}>
-        <img src={logo} alt="VoiceTrans" className="w-[124px] h-[32px]" />
-      </a>
-
+      <div className="absolute left-0 ml-6 mt-3">
+        <a href={"/"}>
+          <img src={logo} alt="VoiceTrans" className="w-[235px] h-[65px]" />
+        </a>
+      </div>
       {/* navbar for large screen: if the screen is more than sx (tailwindcss), show the navbar (set it to flex); otherwise, hidden the navbar */}
-      <ul className="list-none sm:flex hidden justify-end items-center flex-1">
+      <nav className="list-none sm:flex hidden justify-center items-center flex-1">
         {/* for each navbar Link */}
         {navLinks.map((nav, index) => (
           <li
@@ -28,10 +29,10 @@ const Navbar: React.FC = () => {
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
         ))}
-      </ul>
+      </nav>
 
-      {/* for small screen */}
-      {/* if large than sm, hidden; less than sm: flex */}
+      {/* /* navbar for small screen: */}
+      {/* if the menu is open, open the navbar (flex-column) */}
       <div className="sm:hidden flex flex-1 justify-end items-center">
         {/* menu icon for small screen, if the screen is less than sm (tailwindcss), show the menu icon; can be clicked switch to close icon */}
         <img
@@ -40,8 +41,6 @@ const Navbar: React.FC = () => {
           className="w-[28px] h-[28px] object-contain cursor-pointer"
           onClick={() => setMenuOpen((prevMenuOpen) => !prevMenuOpen)}
         />
-
-        {/* if the menu is open, open the navbar (flex-column) */}
 
         {menuOpen && (
           <div
@@ -66,9 +65,7 @@ const Navbar: React.FC = () => {
           </div>
         )}
       </div>
-
-      {/* navbar for small screen: */}
-    </nav>
+    </div>
   );
 };
 

@@ -21,13 +21,13 @@ function App() {
         </div>
       </div>
 
-      <div className={`bg-blue-100 ${styles.flexStart}`}>
+      <div className={`bg-primary ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Hero />
         </div>
       </div>
 
-      <div className={`bg-blue-100 ${styles.paddingX} ${styles.flexCenter}`}>
+      {/* <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Stats />
           <Business />
@@ -38,7 +38,7 @@ function App() {
           <CTA />
           <Footer />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
