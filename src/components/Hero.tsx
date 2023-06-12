@@ -5,7 +5,7 @@ const Hero: React.FC = () => {
     <section
       id="home"
       // > md screen, flex-row; otherwise, flex-col
-      className={`flex md:flex-row flex-col ${styles.paddingY}`}
+      className={`flex md:flex-row flex-col ${styles.paddingY} mx-auto`}
     >
       <div
         className={`flex-1 ${styles.flexCenter} flex-col xl:px-0 sm:px-16 px-6 text-center`}
@@ -18,6 +18,9 @@ const Hero: React.FC = () => {
           platform uses state-of-the-art AI technology to convert your videos
           into different languages, using your own voice.
         </p>
+        <button className="bg-blue-500 text-white px-4 py-2 mt-10">
+          Try free!
+        </button>
       </div>
     </section>
   );

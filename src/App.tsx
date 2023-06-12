@@ -21,23 +21,23 @@ function App() {
         </div>
       </div>
 
-      <div className={`bg-primary ${styles.flexStart}`}>
+      <div className={`bg-primary ${styles.flexStart} h-screen`}>
         <div className={`${styles.boxWidth}`}>
           <Hero />
         </div>
       </div>
 
       {/* <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Stats />
+        <div className={`${styles.boxWidth}`}> */}
+      {/* <Stats />
           <Business />
           <Billing />
           <CardDeal />
           <Testimonial />
           <Clients />
           <CTA />
-          <Footer />
-        </div>
+          <Footer /> */}
+      {/* </div>
       </div> */}
     </div>
   );
