@@ -32,7 +32,9 @@ const Navbar: React.FC = () => {
       </nav>
       <div className="sm:flex hidden justify-center items-center">
         <button className="text-white px-4 py-2 rounded mr-5">Log in</button>
-        <button className="bg-blue-500 text-white px-4 py-2">Try free!</button>
+        <button className="bg-blue-500 text-white px-4 py-2 rounded">
+          Try for free !
+        </button>
       </div>
       {/* /* navbar for small screen: */}
       {/* if the menu is open, open the navbar (flex-column) */}
@@ -68,7 +70,7 @@ const Navbar: React.FC = () => {
                 <button className="text-white rounded mb-4">Log in</button>
               </div>
               <div>
-                <button className="text-white mb-0">Try free!</button>
+                <button className="text-white mb-0">Try for free !</button>
               </div>
             </ul>
           </div>
