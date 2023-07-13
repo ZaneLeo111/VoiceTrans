@@ -1,16 +1,5 @@
 import styles from "./styles";
-import {
-  Billing,
-  Business,
-  CardDeal,
-  Clients,
-  CTA,
-  Footer,
-  Navbar,
-  Stats,
-  Testimonial,
-  Hero,
-} from "./components";
+import { Navbar, Hero } from "./components";
 
 function App() {
   return (
