@@ -1,4 +1,5 @@
 import styles from "../styles";
+import { Link } from "react-router-dom";
 
 const Hero: React.FC = () => {
   return (
@@ -18,9 +19,11 @@ const Hero: React.FC = () => {
           platform uses state-of-the-art AI technology to convert your videos
           into different languages, using your own voice.
         </p>
-        <button className="bg-blue-500 text-white px-4 py-2 mt-10 rounded">
-          Try for free !
-        </button>
+        <Link to="/upload">
+          <button className="bg-blue-500 text-white px-4 py-2 mt-10 rounded">
+            Try for free !
+          </button>
+        </Link>
       </div>
     </section>
   );

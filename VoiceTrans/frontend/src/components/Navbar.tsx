@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { close, menu, logo } from "../assets";
 import { navLinks } from "../constants";
+import { Link } from "react-router-dom";
 
 const Navbar: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -32,9 +33,11 @@ const Navbar: React.FC = () => {
       </nav>
       <div className="sm:flex hidden justify-center items-center">
         <button className="text-white px-4 py-2 rounded mr-5">Log in</button>
-        <button className="bg-blue-500 text-white px-4 py-2 rounded">
-          Try for free !
-        </button>
+        <Link to="/upload">
+          <button className="bg-blue-500 text-white px-4 py-2 rounded">
+            Try for free !
+          </button>
+        </Link>
       </div>
       {/* /* navbar for small screen: */}
       {/* if the menu is open, open the navbar (flex-column) */}

@@ -1,35 +1,17 @@
-import styles from "./styles";
-import { Navbar, Hero } from "./components";
+import React from "react";
+import HomePage from "./pages/HomePage";
+import FileUploadPage from "./pages/FileUploadPage";
+import NotFoundPage from "./pages/NotFoundPage";
+import { Route, Routes } from "react-router-dom";
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="bg-primary w-full overflow-hidden">
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Navbar />
-        </div>
-      </div>
-
-      <div className={`bg-primary ${styles.flexStart} h-screen`}>
-        <div className={`${styles.boxWidth}`}>
-          <Hero />
-        </div>
-      </div>
-
-      {/* <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}> */}
-      {/* <Stats />
-          <Business />
-          <Billing />
-          <CardDeal />
-          <Testimonial />
-          <Clients />
-          <CTA />
-          <Footer /> */}
-      {/* </div>
-      </div> */}
-    </div>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/upload" element={<FileUploadPage />} />
+      <Route path="*" element={<NotFoundPage />}></Route>
+    </Routes>
   );
-}
+};
 
 export default App;
