@@ -1,23 +1,29 @@
-import React, { useRef, FormEvent } from "react";
+import React, { useState } from "react";
 
 const FileUploadPage: React.FC = () => {
-  const fileInput = useRef<HTMLInputElement>(null);
+  const [selectedFile, setSelectedFile] = useState<File | null>(null);
 
-  const submitForm = (event: FormEvent) => {
-    event.preventDefault();
+  const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    if (event.target.files && event.target.files.length > 0) {
+      setSelectedFile(event.target.files[0]);
+    }
+  };
 
-    // Do something with fileInput.current.files[0]
-    // Make sure to check for null values
-    if (fileInput.current?.files) {
-      console.log(fileInput.current.files[0]);
+  const handleUpload = async () => {
+    if (selectedFile) {
+      const formData = new FormData();
+      formData.append("file", selectedFile);
+
+      // Call your Django API here
+      // You may want to use fetch() or axios.post() to upload the file
     }
   };
 
   return (
-    <form onSubmit={submitForm}>
-      <input type="file" ref={fileInput} />
-      <button type="submit">Upload</button>
-    </form>
+    <div>
+      <input type="file" accept="video/*" onChange={handleFileChange} />
+      {selectedFile && <button onClick={handleUpload}>Upload</button>}
+    </div>
   );
 };
 

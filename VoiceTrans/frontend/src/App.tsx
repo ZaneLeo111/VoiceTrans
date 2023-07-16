@@ -9,6 +9,7 @@ const App: React.FC = () => {
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/upload" element={<FileUploadPage />} />
+      {/* any another Route */}
       <Route path="*" element={<NotFoundPage />}></Route>
     </Routes>
   );
