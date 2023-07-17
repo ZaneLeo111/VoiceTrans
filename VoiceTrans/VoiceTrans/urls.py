@@ -16,9 +16,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from core.views import front
+from . import views
 
 urlpatterns = [
-    path('', front),
+    path('', views.front),
+    path('api/upload_audio', views.upload_audio, name='upload_audio'),
+    #path('upload/', views.upload_file, name='upload_file'),
     path('admin/', admin.site.urls),
 ]
