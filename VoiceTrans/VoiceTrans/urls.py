@@ -19,8 +19,10 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('', views.front),
-    path('api/upload_audio', views.upload_audio, name='upload_audio'),
+    
+    path('api/upload_video', views.upload_video, name='upload_video'),
+    path('api/convert_video', views.convert_video, name='convert_video'),
     #path('upload/', views.upload_file, name='upload_file'),
     path('admin/', admin.site.urls),
+    path('', views.front),
 ]
