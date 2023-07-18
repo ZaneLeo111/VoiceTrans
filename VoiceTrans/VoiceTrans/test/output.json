@@ -1,0 +1,304 @@
+{
+  "voices": [
+    {
+      "voice_id": "21m00Tcm4TlvDq8ikWAM",
+      "name": "Rachel",
+      "samples": null,
+      "category": "premade",
+      "fine_tuning": {
+        "model_id": null,
+        "language": null,
+        "is_allowed_to_fine_tune": false,
+        "fine_tuning_requested": false,
+        "finetuning_state": "not_started",
+        "verification_attempts": null,
+        "verification_failures": [],
+        "verification_attempts_count": 0,
+        "slice_ids": null,
+        "manual_verification": null,
+        "manual_verification_requested": false
+      },
+      "labels": {},
+      "description": null,
+      "preview_url": "https://storage.googleapis.com/eleven-public-prod/premade/voices/21m00Tcm4TlvDq8ikWAM/6edb9076-c3e4-420c-b6ab-11d43fe341c8.mp3",
+      "available_for_tiers": [],
+      "settings": null,
+      "sharing": null
+    },
+    {
+      "voice_id": "AZnzlk1XvdvUeBnXmlld",
+      "name": "Domi",
+      "samples": null,
+      "category": "premade",
+      "fine_tuning": {
+        "model_id": null,
+        "language": null,
+        "is_allowed_to_fine_tune": false,
+        "fine_tuning_requested": false,
+        "finetuning_state": "not_started",
+        "verification_attempts": null,
+        "verification_failures": [],
+        "verification_attempts_count": 0,
+        "slice_ids": null,
+        "manual_verification": null,
+        "manual_verification_requested": false
+      },
+      "labels": {},
+      "description": null,
+      "preview_url": "https://storage.googleapis.com/eleven-public-prod/premade/voices/AZnzlk1XvdvUeBnXmlld/69c5373f-0dc2-4efd-9232-a0140182c0a9.mp3",
+      "available_for_tiers": [],
+      "settings": null,
+      "sharing": null
+    },
+    {
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "name": "Bella",
+      "samples": null,
+      "category": "premade",
+      "fine_tuning": {
+        "model_id": null,
+        "language": null,
+        "is_allowed_to_fine_tune": false,
+        "fine_tuning_requested": false,
+        "finetuning_state": "not_started",
+        "verification_attempts": null,
+        "verification_failures": [],
+        "verification_attempts_count": 0,
+        "slice_ids": null,
+        "manual_verification": null,
+        "manual_verification_requested": false
+      },
+      "labels": {},
+      "description": null,
+      "preview_url": "https://storage.googleapis.com/eleven-public-prod/premade/voices/EXAVITQu4vr4xnSDxMaL/04365bce-98cc-4e99-9f10-56b60680cda9.mp3",
+      "available_for_tiers": [],
+      "settings": null,
+      "sharing": null
+    },
+    {
+      "voice_id": "ErXwobaYiN019PkySvjV",
+      "name": "Antoni",
+      "samples": null,
+      "category": "premade",
+      "fine_tuning": {
+        "model_id": null,
+        "language": null,
+        "is_allowed_to_fine_tune": false,
+        "fine_tuning_requested": false,
+        "finetuning_state": "not_started",
+        "verification_attempts": null,
+        "verification_failures": [],
+        "verification_attempts_count": 0,
+        "slice_ids": null,
+        "manual_verification": null,
+        "manual_verification_requested": false
+      },
+      "labels": {},
+      "description": null,
+      "preview_url": "https://storage.googleapis.com/eleven-public-prod/premade/voices/ErXwobaYiN019PkySvjV/38d8f8f0-1122-4333-b323-0b87478d506a.mp3",
+      "available_for_tiers": [],
+      "settings": null,
+      "sharing": null
+    },
+    {
+      "voice_id": "MF3mGyEYCl7XYWbV9V6O",
+      "name": "Elli",
+      "samples": null,
+      "category": "premade",
+      "fine_tuning": {
+        "model_id": null,
+        "language": null,
+        "is_allowed_to_fine_tune": false,
+        "fine_tuning_requested": false,
+        "finetuning_state": "not_started",
+        "verification_attempts": null,
+        "verification_failures": [],
+        "verification_attempts_count": 0,
+        "slice_ids": null,
+        "manual_verification": null,
+        "manual_verification_requested": false
+      },
+      "labels": {},
+      "description": null,
+      "preview_url": "https://storage.googleapis.com/eleven-public-prod/premade/voices/MF3mGyEYCl7XYWbV9V6O/f9fd64c3-5d62-45cd-b0dc-ad722ee3284e.mp3",
+      "available_for_tiers": [],
+      "settings": null,
+      "sharing": null
+    },
+    {
+      "voice_id": "TxGEqnHWrfWFTfGW9XjX",
+      "name": "Josh",
+      "samples": null,
+      "category": "premade",
+      "fine_tuning": {
+        "model_id": null,
+        "language": null,
+        "is_allowed_to_fine_tune": false,
+        "fine_tuning_requested": false,
+        "finetuning_state": "not_started",
+        "verification_attempts": null,
+        "verification_failures": [],
+        "verification_attempts_count": 0,
+        "slice_ids": null,
+        "manual_verification": null,
+        "manual_verification_requested": false
+      },
+      "labels": {},
+      "description": null,
+      "preview_url": "https://storage.googleapis.com/eleven-public-prod/premade/voices/TxGEqnHWrfWFTfGW9XjX/c6c80dcd-5fe5-4a4c-a74c-b3fec4c62c67.mp3",
+      "available_for_tiers": [],
+      "settings": null,
+      "sharing": null
+    },
+    {
+      "voice_id": "VR6AewLTigWG4xSOukaG",
+      "name": "Arnold",
+      "samples": null,
+      "category": "premade",
+      "fine_tuning": {
+        "model_id": null,
+        "language": null,
+        "is_allowed_to_fine_tune": false,
+        "fine_tuning_requested": false,
+        "finetuning_state": "not_started",
+        "verification_attempts": null,
+        "verification_failures": [],
+        "verification_attempts_count": 0,
+        "slice_ids": null,
+        "manual_verification": null,
+        "manual_verification_requested": false
+      },
+      "labels": {},
+      "description": null,
+      "preview_url": "https://storage.googleapis.com/eleven-public-prod/premade/voices/VR6AewLTigWG4xSOukaG/66e83dc2-6543-4897-9283-e028ac5ae4aa.mp3",
+      "available_for_tiers": [],
+      "settings": null,
+      "sharing": null
+    },
+    {
+      "voice_id": "pNInz6obpgDQGcFmaJgB",
+      "name": "Adam",
+      "samples": null,
+      "category": "premade",
+      "fine_tuning": {
+        "model_id": null,
+        "language": null,
+        "is_allowed_to_fine_tune": false,
+        "fine_tuning_requested": false,
+        "finetuning_state": "not_started",
+        "verification_attempts": null,
+        "verification_failures": [],
+        "verification_attempts_count": 0,
+        "slice_ids": null,
+        "manual_verification": null,
+        "manual_verification_requested": false
+      },
+      "labels": {},
+      "description": null,
+      "preview_url": "https://storage.googleapis.com/eleven-public-prod/premade/voices/pNInz6obpgDQGcFmaJgB/e0b45450-78db-49b9-aaa4-d5358a6871bd.mp3",
+      "available_for_tiers": [],
+      "settings": null,
+      "sharing": null
+    },
+    {
+      "voice_id": "yoZ06aMxZJJ28mfd3POQ",
+      "name": "Sam",
+      "samples": null,
+      "category": "premade",
+      "fine_tuning": {
+        "model_id": null,
+        "language": null,
+        "is_allowed_to_fine_tune": false,
+        "fine_tuning_requested": false,
+        "finetuning_state": "not_started",
+        "verification_attempts": null,
+        "verification_failures": [],
+        "verification_attempts_count": 0,
+        "slice_ids": null,
+        "manual_verification": null,
+        "manual_verification_requested": false
+      },
+      "labels": {},
+      "description": null,
+      "preview_url": "https://storage.googleapis.com/eleven-public-prod/premade/voices/yoZ06aMxZJJ28mfd3POQ/1c4d417c-ba80-4de8-874a-a1c57987ea63.mp3",
+      "available_for_tiers": [],
+      "settings": null,
+      "sharing": null
+    },
+    {
+      "voice_id": "cEhKpDZzlSeRUCLIYu9P",
+      "name": "MyVoice",
+      "samples": [
+        {
+          "sample_id": "H7GVIudgBqFiO4vmTAz5",
+          "file_name": "Memorial University of Newfoundland - Faculty of Science 3.mp3",
+          "mime_type": "audio/mpeg",
+          "size_bytes": 826283,
+          "hash": "f0421a906c9b6af8ab5b2e0739131ead"
+        },
+        {
+          "sample_id": "PLLLMcrfn3cs0twLLdL9",
+          "file_name": "Memorial University of Newfoundland - Faculty of Science 2.mp3",
+          "mime_type": "audio/mpeg",
+          "size_bytes": 420900,
+          "hash": "29e95f0492ceeb4568e71dd662efc6fb"
+        },
+        {
+          "sample_id": "PUognAl5Sp658BCtiXCm",
+          "file_name": "Memorial University of Newfoundland - Faculty of Science 6.mp3",
+          "mime_type": "audio/mpeg",
+          "size_bytes": 1787465,
+          "hash": "cad74eaca4e2b43509f5fb11d375d17e"
+        },
+        {
+          "sample_id": "Y2zf5ALanQ9eZGh2ahya",
+          "file_name": "Memorial University of Newfoundland - Faculty of Science 7.mp3",
+          "mime_type": "audio/mpeg",
+          "size_bytes": 2197326,
+          "hash": "65a51a976d19ae87b257a3fde81c9c71"
+        },
+        {
+          "sample_id": "bVWMe2pM0nBRWzCNj5mE",
+          "file_name": "Memorial University of Newfoundland - Faculty of Science 4.mp3",
+          "mime_type": "audio/mpeg",
+          "size_bytes": 1528716,
+          "hash": "5ca753ed2aca4202f5a193ed9a73d1cc"
+        },
+        {
+          "sample_id": "n6do1WkUFTzQXg2vQOLT",
+          "file_name": "Memorial University of Newfoundland - Faculty of Science.mp3",
+          "mime_type": "audio/mpeg",
+          "size_bytes": 841342,
+          "hash": "8970e5914a5d8445d588c07fa33947d4"
+        },
+        {
+          "sample_id": "sD10L7gAWorsLLrE3dGm",
+          "file_name": "Memorial University of Newfoundland - Faculty of Science 5.mp3",
+          "mime_type": "audio/mpeg",
+          "size_bytes": 1411952,
+          "hash": "9a722cf736129f835a6b6d98f8faa037"
+        }
+      ],
+      "category": "cloned",
+      "fine_tuning": {
+        "model_id": null,
+        "language": null,
+        "is_allowed_to_fine_tune": false,
+        "fine_tuning_requested": false,
+        "finetuning_state": "not_started",
+        "verification_attempts": null,
+        "verification_failures": [],
+        "verification_attempts_count": 0,
+        "slice_ids": null,
+        "manual_verification": null,
+        "manual_verification_requested": false
+      },
+      "labels": {},
+      "description": "my voice",
+      "preview_url": "https://storage.googleapis.com/eleven-public-prod/2yprujMFAkSUUOmsEXorncDyFGv1/voices/cEhKpDZzlSeRUCLIYu9P/38fe9c6b-775e-4a87-af98-3d829b5cd05a.mp3",
+      "available_for_tiers": [],
+      "settings": null,
+      "sharing": null
+    }
+  ]
+}
