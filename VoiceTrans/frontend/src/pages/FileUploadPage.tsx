@@ -8,6 +8,7 @@ function FileUploadPage() {
   const [uploadMessage, setUploadMessage] = useState("");
   const [convertMessage, setConvertMessage] = useState("");
   const [showConvertButton, setShowConvertButton] = useState(false);
+  const [output_url, setOutputUrl] = useState("");
 
   const handleFileChange = (e: any) => {
     setFile(e.target.files[0]);
@@ -64,7 +65,8 @@ function FileUploadPage() {
         throw new Error("Convert failed");
       }
 
-      const data = response.data;
+      const output_url = response.data.output_url;
+      setOutputUrl(output_url);
       setConvertMessage(`Converted successfully!`);
     } catch (error: any) {
       if (error.response) {
@@ -96,6 +98,15 @@ function FileUploadPage() {
         <button onClick={handleFileConvert}>Convert</button>
       )}
       <p>{convertMessage}</p>
+
+      {output_url && (
+        <>
+          <video width="320" height="240" controls>
+            <source src={output_url} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </>
+      )}
     </div>
   );
 }

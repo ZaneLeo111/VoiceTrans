@@ -177,7 +177,9 @@ def upload_video(request):
 def convert_video(request):
 	if request.method == 'POST':
 		audio_path = os.path.join(settings.MEDIA_ROOT, "audio.mp3")
-		print(audio_path)
+		output_path = os.path.join(settings.MEDIA_ROOT, "output.mp4")
+		relative_path = os.path.relpath(output_path, settings.MEDIA_ROOT)
+		print(relative_path)
 		if audio_path is None:
 			return JsonResponse({'error': 'No audio file to convert'}, status=400)
 		try:
@@ -185,7 +187,8 @@ def convert_video(request):
 			print("transcribe and translate done")
 			convert_text_to_voice()
 			conbine_video_with_audio()
-			return JsonResponse({'success': True})
+			
+			return JsonResponse({'output_url': request.build_absolute_uri(settings.MEDIA_URL + relative_path)})
 		except Exception as e:
 			return JsonResponse({'error': f'Error during conversion: {str(e)}'}, status=500)
 	
